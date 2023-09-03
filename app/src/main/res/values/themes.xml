@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        
+        <item name="colorPrimary">#FF9800</item>
+        <item name="colorPrimaryVariant">#FF5722</item>
+
+    </style>
+
+    <style name="BACKGROUNDCALCI">
+        <item name="android:background">#EFEFEF</item>
+    </style>
+
+
+    <style name="SCREEN">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TEXT">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="BUTTONR">
+
+        <item name="android:background">#FF5722</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="BUTTONB">
+
+        <item name="android:background">#0392D3</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="BUTTONO">
+
+        <item name="android:background">#FF9800</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.Calculator" parent="Base.Theme.Calculator" />
+</resources>
